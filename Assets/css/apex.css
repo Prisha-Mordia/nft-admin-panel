@@ -1,0 +1,57 @@
+ /* chart   start   */
+ #chart {
+  max-width: 550px;
+  margin: 0px auto;
+  
+  }
+  .apx{
+    border:1px solid var(--border-color);
+    border-radius: 10px;
+  }
+  .jgm{
+    padding: 7px;
+  }
+  .chart1{
+    padding: 10px;
+  }
+  .chart-head p{
+    color:var(--primary-color);
+    font-size: var(--fs-15px);
+    display: none;
+  }
+  .chart-head span .s1{
+    color: #5c4a91!important;
+    font-size: 10px;
+    padding: 5px;
+  }
+  .chart-head span {
+    color:var(--secondary-color);
+    font-size: 13px;
+    padding: 5px;
+    display: none;
+  }
+  .chart-head span .s2{
+    /* color:#0068b9; */
+    font-size: 10px;
+    padding: 5px;
+  }
+  .chart1  .apexcharts-yaxis,.apexcharts-menu-icon{
+    display: none;
+  }
+  
+  .apexcharts-series{
+    width:45px;
+  }
+  /* share marker  */
+  .apexcharts-legend-marker{
+    background:  #8c68cd !important;
+  }
+  .apexcharts-legend-text{
+    color:var(--primary-color);
+  }
+  /* .apexcharts-rangebar-area{
+    color: #5c4a91!important;
+  } */
+/* .apexcharts-yaxis{
+width: 0!important;
+} */
